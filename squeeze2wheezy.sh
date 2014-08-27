@@ -33,13 +33,13 @@ NEW=$(cat /etc/debian_version)
 
 echo "Upgraded von Debian Version $OLD auf $NEW"
 echo "Reboot in 5 Sekunden"
-sleep(1)
+sleep 1
 echo "Reboot in 4 Sekunden"
-sleep(1)
+sleep 1 
 echo "Reboot in 3 Sekunden"
-sleep(1)
+sleep 1 
 echo "Reboot in 2 Sekunden"
-sleep(1)
+sleep 1 
 echo "Reboot in 1 Sekunden"
-sleep(1)
+sleep 1 
 reboot
